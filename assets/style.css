@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif, arial;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#nota {
+    padding: 5px 10px;
+    width: 300px;
+}
+
+.btn.botao {
+    margin-top: 20px;
+}
+
+.botao {
+    border: none;
+    box-shadow: 10px 5px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 150px;
+    margin: 5px;
+    padding: 10px 15px; 
+}
+
+
